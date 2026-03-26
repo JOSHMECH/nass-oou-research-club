@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoImg from "/images/logo.webp";
 
 const Footer = () => (
   <footer className="border-t bg-navy text-navy-foreground">

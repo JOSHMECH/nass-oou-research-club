@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { BookOpen, Upload, Newspaper, Library } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImg from "/images/logo.webp";
 
 const features = [
   {
