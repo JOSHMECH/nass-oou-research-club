@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 border-b bg-card/80 backdrop-blur-md">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/images/logo.webp" alt="NASS OOU Research Club" className="h-10 w-10 rounded-full object-cover" />
+          <img src={logoImg} alt="NASS OOU Research Club" className="h-10 w-10 rounded-full object-cover" />
           <span className="font-display text-lg font-bold tracking-tight text-foreground">
             NASS OOU <span className="text-primary">Research Club</span>
           </span>

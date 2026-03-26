@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="grid gap-8 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <img src="/images/logo.webp" alt="Logo" className="h-10 w-10 rounded-full" />
+            <img src={logoImg} alt="Logo" className="h-10 w-10 rounded-full" />
             <span className="font-display text-lg font-bold text-primary-foreground">
               NASS OOU Research Club
             </span>

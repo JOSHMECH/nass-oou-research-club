@@ -38,7 +38,7 @@ const Index = () => (
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(36_76%_44%/0.15),transparent_60%)]" />
       <div className="container relative z-10 flex flex-col items-center py-20 text-center md:py-32">
         <img
-          src="/images/logo.webp"
+          src={logoImg}
           alt="NASS OOU Research Club"
           className="mb-8 h-28 w-28 animate-fade-in rounded-full border-4 border-primary/30 object-cover shadow-gold md:h-36 md:w-36"
         />
