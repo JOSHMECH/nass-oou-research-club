@@ -52,7 +52,12 @@ const Index = () => (
           <Button asChild size="lg" className="bg-gradient-gold shadow-gold hover:opacity-90">
             <Link to="/journals">Browse Journals</Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="border-primary/40 text-primary-foreground hover:bg-primary/10">
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="border-primary/40 text-gold hover:bg-primary/10"
+          >
             <Link to="/publish">Publish Research</Link>
           </Button>
         </div>
